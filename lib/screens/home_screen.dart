@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import '../widgets/sos_button.dart';
-import 'craving_type_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -8,14 +8,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE8F6EF), // calming mint green
+      backgroundColor: const Color(0xFFF8F9FA),
       body: Center(
         child: SOSButton(
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const CravingTypeScreen()),
-            );
+            context.go('/craving_type');
           },
         ),
       ),

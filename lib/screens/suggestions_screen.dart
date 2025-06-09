@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shadcn_ui/shadcn_ui.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../widgets/suggestion_card.dart';
 import '../widgets/micro_tip.dart';
@@ -25,72 +24,63 @@ class SuggestionsScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            ...suggestions.map((s) => ShadCard(
-                  margin: const EdgeInsets.symmetric(vertical: 10),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(16),
-                        child: CachedNetworkImage(
-                          imageUrl: s.imageUrl,
-                          height: 160,
-                          width: double.infinity,
-                          fit: BoxFit.cover,
-                          placeholder: (context, url) => const Center(child: CircularProgressIndicator()),
-                          errorWidget: (context, url, error) => const Icon(Icons.fastfood, size: 80, color: Colors.grey),
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      Row(
-                        children: [
-                          Text(s.emoji, style: const TextStyle(fontSize: 28)),
-                          const SizedBox(width: 10),
-                          Expanded(
-                            child: Text(s.title, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 6),
-                      Text(s.tip, style: const TextStyle(fontSize: 16, color: Colors.teal)),
-                      const SizedBox(height: 10),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          _MacroChip(label: 'Calories', value: s.calories, color: Colors.redAccent),
-                          _MacroChip(label: 'Carbs', value: s.carbs, color: Colors.orange),
-                          _MacroChip(label: 'Protein', value: s.protein, color: Colors.green),
-                          _MacroChip(label: 'Fat', value: s.fat, color: Colors.blue),
-                        ],
-                      ),
-                      const SizedBox(height: 10),
-                      ShadButton(
-                        onPressed: () {
-                          showDialog(
-                            context: context,
-                            builder: (context) => AlertDialog(
-                              title: Text('Recipe for ${s.title}'),
-                              content: Text(s.recipe),
-                              actions: [
-                                TextButton(
-                                  onPressed: () => Navigator.pop(context),
-                                  child: const Text('Close'),
-                                ),
-                              ],
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              ...suggestions.map((s) => Card(
+                    margin: const EdgeInsets.symmetric(vertical: 10),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const SizedBox(height: 12),
+                        Row(
+                          children: [
+                            Text(s.emoji, style: const TextStyle(fontSize: 28)),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: Text(s.title, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                             ),
-                          );
-                        },
-                        child: const Text('Show Recipe'),
-                      ),
-                    ],
-                  ),
-                )),
-            const SizedBox(height: 32),
-            MicroTip(tip: microTip),
-          ],
+                          ],
+                        ),
+                        const SizedBox(height: 6),
+                        Text(s.tip, style: const TextStyle(fontSize: 16, color: Colors.teal)),
+                        const SizedBox(height: 10),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            _MacroChip(label: 'Calories', value: s.calories, color: Colors.redAccent),
+                            _MacroChip(label: 'Carbs', value: s.carbs, color: Colors.orange),
+                            _MacroChip(label: 'Protein', value: s.protein, color: Colors.green),
+                            _MacroChip(label: 'Fat', value: s.fat, color: Colors.blue),
+                          ],
+                        ),
+                        const SizedBox(height: 10),
+                        ElevatedButton(
+                          onPressed: () {
+                            showDialog(
+                              context: context,
+                              builder: (context) => AlertDialog(
+                                title: Text('Recipe for ${s.title}'),
+                                content: Text(s.recipe),
+                                actions: [
+                                  TextButton(
+                                    onPressed: () => Navigator.pop(context),
+                                    child: const Text('Close'),
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                          child: const Text('Show Recipe'),
+                        ),
+                      ],
+                    ),
+                  )),
+              const SizedBox(height: 32),
+              MicroTip(tip: microTip),
+            ],
+          ),
         ),
       ),
     );
