@@ -10,10 +10,20 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF8F9FA),
       body: Center(
-        child: SOSButton(
-          onPressed: () {
-            context.go('/craving_type');
-          },
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            SOSButton(
+              onPressed: () {
+                context.go('/craving_type');
+              },
+            ),
+            const SizedBox(height: 24),
+            ElevatedButton(
+              onPressed: () => context.go('/privacy'),
+              child: const Text('Privacy Policy'),
+            ),
+          ],
         ),
       ),
     );

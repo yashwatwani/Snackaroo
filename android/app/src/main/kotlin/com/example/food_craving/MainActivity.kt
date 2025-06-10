@@ -1,4 +1,4 @@
-package com.example.food_craving
+package com.yashwatwani.Snackaroo
 
 import io.flutter.embedding.android.FlutterActivity
 

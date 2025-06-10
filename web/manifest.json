@@ -1,6 +1,6 @@
 {
-    "name": "food_craving",
-    "short_name": "food_craving",
+    "name": "Snackaroo",
+    "short_name": "Snackaroo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

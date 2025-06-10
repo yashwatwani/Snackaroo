@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'screens/home_screen.dart';
 import 'screens/suggestions_screen.dart';
 import 'screens/craving_type_screen.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(
@@ -12,6 +13,36 @@ void main() {
       child: MyApp(),
     ),
   );
+}
+
+class PrivacyPolicyScreen extends StatelessWidget {
+  const PrivacyPolicyScreen({Key? key}) : super(key: key);
+
+  Future<String> _loadPolicy() async {
+    return await rootBundle.loadString('PRIVACY_POLICY.md');
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Privacy Policy')),
+      body: FutureBuilder<String>(
+        future: _loadPolicy(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return const Center(child: Text('Failed to load privacy policy.'));
+          } else {
+            return SingleChildScrollView(
+              padding: const EdgeInsets.all(16),
+              child: Text(snapshot.data ?? '', style: const TextStyle(fontSize: 16)),
+            );
+          }
+        },
+      ),
+    );
+  }
 }
 
 final _router = GoRouter(
@@ -31,6 +62,10 @@ final _router = GoRouter(
         final cravingType = state.extra as String;
         return SuggestionsScreen(cravingType: cravingType);
       },
+    ),
+    GoRoute(
+      path: '/privacy',
+      builder: (context, state) => const PrivacyPolicyScreen(),
     ),
   ],
 );
