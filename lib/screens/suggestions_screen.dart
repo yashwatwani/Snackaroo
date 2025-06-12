@@ -60,14 +60,16 @@ class SuggestionsScreen extends StatelessWidget {
                           const SizedBox(height: 6),
                           Text(s.tip, style: const TextStyle(fontSize: 16, color: Colors.teal)),
                           const SizedBox(height: 10),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              _MacroChip(label: 'Calories', value: s.calories, color: Colors.redAccent),
-                              _MacroChip(label: 'Carbs', value: s.carbs, color: Colors.orange),
-                              _MacroChip(label: 'Protein', value: s.protein, color: Colors.green),
-                              _MacroChip(label: 'Fat', value: s.fat, color: Colors.blue),
-                            ],
+                          SingleChildScrollView(
+                            scrollDirection: Axis.horizontal,
+                            child: Row(
+                              children: [
+                                _MacroChip(label: 'Calories', value: s.calories, color: Colors.redAccent),
+                                _MacroChip(label: 'Carbs', value: s.carbs, color: Colors.orange),
+                                _MacroChip(label: 'Protein', value: s.protein, color: Colors.green),
+                                _MacroChip(label: 'Fat', value: s.fat, color: Colors.blue),
+                              ],
+                            ),
                           ),
                           const SizedBox(height: 10),
                           ElevatedButton(

@@ -1,14 +1,22 @@
-# Snackaroo
+# Snackaroo 🥕
 
-Snackaroo is a cross-platform Flutter application designed to help users discover, track, and manage their food cravings. Whether you're looking for snack inspiration, want to log your favorite treats, or simply explore new food ideas, Snackaroo has you covered!
+Snackaroo is a simple Flutter app that helps users find healthy snack options based on their cravings—like sweet, crunchy, salty, or emotional eating—so they can eat better and avoid overeating.
 
-## Features
-- Browse a curated list of snacks and food items
-- Add your own cravings or favorite snacks
-- Mark snacks as tried or to-try
-- Search and filter snacks by category
-- Cross-platform: works on Web (Chrome), Android, and iOS
+## 🧠 Why Snackaroo?
 
+Everyone gets cravings. But not all cravings need to lead to junk food.  
+Snackaroo gives you smart snack suggestions that are:
+
+- Aligned with your craving type (Sweet, Crunchy, Spicy, etc.)
+- Backed by nutritional info and benefits
+- Calorie-aware, so you can snack without guilt
+
+## ✨ Features
+
+- 🧭 Explore snacks by craving category  
+- 🍎 View nutrition facts and health benefits  
+- 📉 Avoid overeating with smart tips  
+- 🧘 Eat more mindfully, feel better
 ## Getting Started
 
 ### Prerequisites
