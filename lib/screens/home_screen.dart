@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
               ...cravingTypes.map((type) => Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8.0),
                 child: GestureDetector(
-                  onTap: () => context.go('/suggestions', extra: type['label']),
+                  onTap: () => context.push('/suggestions', extra: type['label']),
                   child: Container(
                     decoration: AppDecorations.roundedCard(type['color'] as Color),
                     padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 24),
