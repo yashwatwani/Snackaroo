@@ -253,7 +253,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 60, // For 2 medium Medjool dates (approx 24g each)
         carbs: 16,
-        protein: 0.5,
+        protein: 0,
         fat: 0,
       ),
       Suggestion(
@@ -276,7 +276,7 @@ class SuggestionsData {
         calories: 105, // For 1 medium banana
         carbs: 27,
         protein: 1,
-        fat: 0.3,
+        fat: 0,
       ),
       Suggestion(
         title: 'Dried Figs or Apricots',
@@ -287,7 +287,7 @@ class SuggestionsData {
         calories: 70, // For 2 dried figs (approx 40g)
         carbs: 18,
         protein: 1,
-        fat: 0.5,
+        fat: 0,
       ),
       Suggestion(
         title: 'Apple Slices with Nut Butter',
@@ -308,8 +308,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 60, // For approx 20g
         carbs: 15,
-        protein: 0.2,
-        fat: 0.1,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Chikki Bar (Nut/Sesame Brittle with Jaggery)',
@@ -400,7 +400,7 @@ class SuggestionsData {
         calories: 160, // for 2 idlis + small sambhar
         carbs: 32,
         protein: 6,
-        fat: 1.5,
+        fat: 1,
       ),
       Suggestion(
         title: 'Masala Oats (Savory Oatmeal)',
@@ -466,7 +466,7 @@ class SuggestionsData {
         calories: 190,
         carbs: 32,
         protein: 9,
-        fat: 3.5,
+        fat: 3,
       ),
       Suggestion(
         title: 'Corn Chaat (Sweet & Spicy Corn Salad)',
@@ -488,7 +488,7 @@ class SuggestionsData {
         calories: 110, // Per pinwheel (approx)
         carbs: 14,
         protein: 3,
-        fat: 4.5,
+        fat: 4,
       ),
       Suggestion(
         title: 'Dahi Vada (Lentil Fritters in Yogurt - Healthier)',
@@ -510,7 +510,7 @@ class SuggestionsData {
         calories: 190,
         carbs: 33,
         protein: 6,
-        fat: 4.5,
+        fat: 4,
       ),
       Suggestion(
         title: 'Palak Paneer Toast (Spinach & Cottage Cheese Toast)',
@@ -545,7 +545,7 @@ class SuggestionsData {
         calories: 100, // For approx 1 cup serving
         carbs: 15,
         protein: 3,
-        fat: 3.5,
+        fat: 3,
       ),
       Suggestion(
         title: 'Masala Papad (Roasted/Air-Fried with Toppings)',
@@ -567,7 +567,7 @@ class SuggestionsData {
         calories: 60, // Per mini bite
         carbs: 8,
         protein: 2,
-        fat: 2.5,
+        fat: 2,
       ),
 
       // --- New Ready-to-Eat / Minimal Prep Salty Options ---
@@ -601,7 +601,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 50, // Per plain khakhra
         carbs: 9,
-        protein: 1.5,
+        protein: 1,
         fat: 1,
       ),
       Suggestion(
@@ -613,7 +613,7 @@ class SuggestionsData {
         calories: 45,
         carbs: 4,
         protein: 3,
-        fat: 1.5,
+        fat: 1,
       ),
       Suggestion(
         title: 'Cheese Cubes or Slice (Paneer or Regular)',
@@ -638,7 +638,7 @@ class SuggestionsData {
         calories: 55,
         carbs: 10,
         protein: 1,
-        fat: 0.5,
+        fat: 0,
       ),
       Suggestion(
         title: 'Roasted Chivda (Poha Namkeen)',
@@ -660,7 +660,7 @@ class SuggestionsData {
         calories: 60, // Per plain khakhra
         carbs: 10,
         protein: 2,
-        fat: 1.5,
+        fat: 1,
       ),
       Suggestion(
         title: 'Roasted Almonds (Spiced or Plain)',
@@ -693,7 +693,7 @@ class SuggestionsData {
         calories: 110, // for about 3-4 cups popped (lightly seasoned)
         carbs: 22,
         protein: 4,
-        fat: 1.5,
+        fat: 1,
       ),
       Suggestion(
         title: 'Bell Pepper Strips with Mint-Yogurt Dip',
@@ -715,7 +715,7 @@ class SuggestionsData {
         calories: 100, // For approx 1 cup serving
         carbs: 15,
         protein: 3,
-        fat: 3.5,
+        fat: 3,
       ),
       Suggestion(
         title: 'Papad (Roasted/Air-Fried)',
@@ -726,7 +726,7 @@ class SuggestionsData {
         calories: 45, // Per papad
         carbs: 8,
         protein: 3,
-        fat: 0.2,
+        fat: 0,
       ),
       Suggestion(
         title: 'Radish Slices (Mooli) with Lemon & Salt',
@@ -737,7 +737,7 @@ class SuggestionsData {
         calories: 25,
         carbs: 5,
         protein: 1,
-        fat: 0.1,
+        fat: 0,
       ),
       Suggestion(
         title: 'Sugar Snap Peas or Green Beans (Raw/Blanched)',
@@ -748,7 +748,7 @@ class SuggestionsData {
         calories: 45, // For 1 cup
         carbs: 8,
         protein: 3,
-        fat: 0.2,
+        fat: 0,
       ),
       Suggestion(
         title: 'Apple Slices with Cinnamon',
@@ -758,8 +758,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 80, // Apple with cinnamon only
         carbs: 20,
-        protein: 0.5,
-        fat: 0.3,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Unsweetened Coconut Chips',
@@ -769,7 +769,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 120, // For 1/4 cup (approx 15g)
         carbs: 5,
-        protein: 1.5,
+        protein: 1,
         fat: 11,
       ),
 
@@ -783,7 +783,7 @@ class SuggestionsData {
         calories: 70, // For 2 cups plain
         carbs: 16,
         protein: 1,
-        fat: 0.2,
+        fat: 0,
       ),
       Suggestion(
         title: 'Baked Mathri / Namak Pare (Savory Crackers)',
@@ -897,7 +897,7 @@ class SuggestionsData {
         calories: 170,
         carbs: 30,
         protein: 5,
-        fat: 3.5,
+        fat: 3,
       ),
       Suggestion(
         title: 'Samosa Chaat (Spicy Deconstructed Samosa)',
@@ -974,7 +974,7 @@ class SuggestionsData {
         calories: 120, // For 2-3 baked vadas
         carbs: 16,
         protein: 6,
-        fat: 3.5,
+        fat: 3,
       ),
       Suggestion(
         title: 'Spicy Vegetable Soup (Indian Hot & Sour Style)',
@@ -995,8 +995,8 @@ class SuggestionsData {
         imageUrl: 'https.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 20, // For 1-2 small chilies
         carbs: 2,
-        protein: 0.3,
-        fat: 1.5,
+        protein: 0,
+        fat: 1,
       ),
       Suggestion(
         title: 'Spicy Indian Trail Mix (Chatpata Nuts & Seeds)',
@@ -1084,7 +1084,7 @@ class SuggestionsData {
         calories: 80, // For raw/semi-ripe mango
         carbs: 20,
         protein: 1,
-        fat: 0.5,
+        fat: 0,
       ),
       Suggestion(
         title: 'Achar (Spicy Indian Pickle - Small Condiment Snack)',
@@ -1094,8 +1094,8 @@ class SuggestionsData {
         imageUrl: 'https.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 40, // For 1 tsp (highly variable)
         carbs: 2,
-        protein: 0.2,
-        fat: 3.5,
+        protein: 0,
+        fat: 3,
       ),
       Suggestion(
         title: 'Spicy Boondi Raita (with Extra Chili)',
@@ -1117,7 +1117,7 @@ class SuggestionsData {
         calories: 100,
         carbs: 20,
         protein: 2,
-        fat: 1.5,
+        fat: 1,
       ),
       Suggestion(
         title: 'Spicy Stuffed Bhavnagri Chilies (Besan Filled)',
@@ -1161,7 +1161,7 @@ class SuggestionsData {
         calories: 60, // Thecha + small cracker/bhakri piece
         carbs: 10,
         protein: 2,
-        fat: 1.5,
+        fat: 1,
       ),
       Suggestion(
         title: 'Chana Jor Garam (Spicy Flattened Chickpeas Snack)',
@@ -1172,7 +1172,7 @@ class SuggestionsData {
         calories: 150, // For 1/2 cup plain
         carbs: 22,
         protein: 7,
-        fat: 4.5,
+        fat: 4,
       ),
       Suggestion(
         title: 'Spicy Tamarind Candy (Imli Candy - Homemade/Storebought)',
@@ -1182,8 +1182,8 @@ class SuggestionsData {
         imageUrl: 'https.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 50, // For 2-3 small candies
         carbs: 12,
-        protein: 0.2,
-        fat: 0.1,
+        protein: 0,
+        fat: 0,
       ),
     ],
     'Not Sure': [
@@ -1197,7 +1197,7 @@ class SuggestionsData {
         calories: 110,
         carbs: 25,
         protein: 1,
-        fat: 0.5,
+        fat: 0,
       ),
       Suggestion(
         title: 'Quick Boiled Egg',
@@ -1206,9 +1206,9 @@ class SuggestionsData {
         recipe: '1. Place 1-2 eggs in a saucepan and cover with cold water by about an inch.\n2. Bring to a rolling boil, then cover, turn off heat, and let sit for 8-10 minutes for hard-boiled (or 4-6 for softer).\n3. Drain hot water and run cold water over eggs or place in an ice bath to stop cooking and make peeling easier.\n4. Peel and slice or eat whole. Sprinkle with salt and freshly ground black pepper.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 78, // Per egg
-        carbs: 0.6,
-        protein: 6.3,
-        fat: 5.3,
+        carbs: 0,
+        protein: 6,
+        fat: 5,
       ),
       Suggestion(
         title: 'Whole Grain Toast with Simple Topping',
@@ -1252,7 +1252,7 @@ class SuggestionsData {
         calories: 90, // for 1/2 cup plain full-fat yogurt
         carbs: 7,
         protein: 6,
-        fat: 4.5,
+        fat: 4,
       ),
       Suggestion(
         title: 'A Single Piece of Fresh Fruit',
@@ -1263,7 +1263,7 @@ class SuggestionsData {
         calories: 90, // Average for one medium piece
         carbs: 22,
         protein: 1,
-        fat: 0.3,
+        fat: 0,
       ),
       Suggestion(
         title: 'Quick Vegetable Juice (Homemade/Store-bought)',
@@ -1273,8 +1273,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 60,
         carbs: 12,
-        protein: 1.5,
-        fat: 0.2,
+        protein: 1,
+        fat: 0,
       ),
       Suggestion(
         title: 'Paneer Cubes (Plain or Lightly Spiced)',
@@ -1283,7 +1283,7 @@ class SuggestionsData {
         recipe: '1. Cut 2-3 small cubes (approx. 40-50g) of fresh paneer (Indian cottage cheese).\n2. Option 1 (Plain): Eat as is.\n3. Option 2 (Spiced): Sprinkle with a pinch of black pepper, salt, or chaat masala.\n4. No cooking required. Ready in under a minute.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 140, // for 50g
-        carbs: 2.5,
+        carbs: 2,
         protein: 9,
         fat: 11,
       ),
@@ -1317,8 +1317,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 66, // for 2 medium dates
         carbs: 18,
-        protein: 0.5,
-        fat: 0.1,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Lemon Mint Infused Water',
@@ -1327,8 +1327,8 @@ class SuggestionsData {
         recipe: '1. To a glass of cold water, add 2-3 thin slices of lemon and 4-5 fresh mint leaves (gently muddled or torn).\n2. Let it sit for 5-10 minutes for flavors to infuse.\n3. Add ice if desired. Drink. Can be refilled.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 5,
-        carbs: 1.5,
-        protein: 0.1,
+        carbs: 1,
+        protein: 0,
         fat: 0,
       ),
       Suggestion(
@@ -1338,9 +1338,9 @@ class SuggestionsData {
         recipe: '1. Take a small handful (about 1-2 tablespoons or 15-20g) of raw or roasted pumpkin seeds.\n2. If raw, you can lightly toast them in a dry pan for 2-3 minutes until fragrant for extra crunch.\n3. Eat as is. Ready to eat or <5 mins prep.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 90, // for 2 tbsp (approx 15g)
-        carbs: 2.5,
-        protein: 4.5,
-        fat: 7.5,
+        carbs: 2,
+        protein: 4,
+        fat: 7,
       ),
        Suggestion(
         title: 'Small Bowl of Fresh Berries',
@@ -1350,8 +1350,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 50, // for 1/2 cup
         carbs: 12,
-        protein: 0.8,
-        fat: 0.4,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Quick Cucumber Raita',
@@ -1361,7 +1361,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 75,
         carbs: 8,
-        protein: 4.5,
+        protein: 4,
         fat: 3,
       ),
       Suggestion(
@@ -1383,7 +1383,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 50, // Per 250ml
         carbs: 10,
-        protein: 0.5,
+        protein: 0,
         fat: 0,
       ),
       Suggestion(
@@ -1395,7 +1395,7 @@ class SuggestionsData {
         calories: 80, // for 15g
         carbs: 6,
         protein: 1,
-        fat: 6.5,
+        fat: 6,
       ),
       Suggestion(
         title: 'Small Steamed Sweet Potato',
@@ -1406,7 +1406,7 @@ class SuggestionsData {
         calories: 90, // For one small (approx 100g)
         carbs: 21,
         protein: 2,
-        fat: 0.2,
+        fat: 0,
       ),
       Suggestion(
         title: 'A Few Pickled Vegetable Pieces',
@@ -1416,8 +1416,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 35, // Highly variable, for a small serving
         carbs: 6,
-        protein: 0.5,
-        fat: 1.5,
+        protein: 0,
+        fat: 1,
       ),
 
       // --- New "Not Sure" Options (Diverse, Quick & Easy) ---
@@ -1440,8 +1440,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 20,
         carbs: 4,
-        protein: 0.5,
-        fat: 0.1,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Rice Cake with Simple Topping',
@@ -1462,7 +1462,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 45, // For 5-6 olives
         carbs: 2,
-        protein: 0.3,
+        protein: 0,
         fat: 4,
       ),
       Suggestion(
@@ -1495,8 +1495,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 70,
         carbs: 18,
-        protein: 0.6,
-        fat: 0.2,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Quick Nimbu Pani (Indian Lemonade)',
@@ -1506,7 +1506,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 40, // With 1 tsp sugar
         carbs: 10,
-        protein: 0.1,
+        protein: 0,
         fat: 0,
       ),
       Suggestion(
@@ -1518,7 +1518,7 @@ class SuggestionsData {
         calories: 25,
         carbs: 5,
         protein: 1,
-        fat: 0.3,
+        fat: 0,
       ),
       Suggestion(
         title: 'Instant Oats (Small Portion, Simply Prepared)',
@@ -1540,7 +1540,7 @@ class SuggestionsData {
         calories: 70, // For 3 apricots or 2 figs
         carbs: 18,
         protein: 1,
-        fat: 0.3,
+        fat: 0,
       ),
       Suggestion(
         title: 'Cheese Slice (Plain or on Cracker)',
@@ -1573,7 +1573,7 @@ class SuggestionsData {
         calories: 45, // Per papad
         carbs: 8,
         protein: 3,
-        fat: 0.2,
+        fat: 0,
       ),
       Suggestion(
         title: 'Watermelon Cubes (Small Bowl)',
@@ -1584,7 +1584,7 @@ class SuggestionsData {
         calories: 46, // For 1 cup cubes
         carbs: 11,
         protein: 1,
-        fat: 0.2,
+        fat: 0,
       ),
       Suggestion(
         title: 'Boiled Sweet Corn (Small Cup)',
@@ -1595,7 +1595,7 @@ class SuggestionsData {
         calories: 100, // With a little butter
         carbs: 20,
         protein: 3,
-        fat: 2.5,
+        fat: 2,
       ),
       Suggestion(
         title: 'Handful of Sunflower Seeds',
@@ -1616,7 +1616,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 80, // For 2 cups with minimal oil
         carbs: 17,
-        protein: 1.5,
+        protein: 1,
         fat: 1,
       ),
       Suggestion(
@@ -1627,8 +1627,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 50, // For 2-3 pieces
         carbs: 12,
-        protein: 0.2,
-        fat: 0.1,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Jaljeera Drink (Quick Mix)',
@@ -1638,7 +1638,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 20,
         carbs: 5,
-        protein: 0.2,
+        protein: 0,
         fat: 0,
       ),
       Suggestion(
@@ -1649,8 +1649,8 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 60, // For 1/2 cup
         carbs: 15,
-        protein: 0.5,
-        fat: 0.2,
+        protein: 0,
+        fat: 0,
       ),
       Suggestion(
         title: 'Hard Boiled Egg Whites',
@@ -1659,9 +1659,9 @@ class SuggestionsData {
         recipe: '1. Take 1-2 hard-boiled eggs (prepared as per "Quick Boiled Egg" recipe).\n2. Peel and carefully slice in half. Remove the yolks.\n3. Eat the egg whites plain or sprinkle with a little salt and pepper. Ready in <1 min (if eggs are pre-boiled).',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 34, // For 2 egg whites
-        carbs: 0.4,
-        protein: 7.2,
-        fat: 0.1,
+        carbs: 0,
+        protein: 7,
+        fat: 0,
       ),
       Suggestion(
         title: 'Chikki / Nut Brittle Piece (Small)',
@@ -1671,7 +1671,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 90, // For a 20g piece
         carbs: 10,
-        protein: 2.5,
+        protein: 2,
         fat: 5,
       ),
       Suggestion(
@@ -1693,7 +1693,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 50, // Per khakhra
         carbs: 9,
-        protein: 1.5,
+        protein: 1,
         fat: 1,
       ),
       Suggestion(
@@ -1704,7 +1704,7 @@ class SuggestionsData {
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 25,
         carbs: 7,
-        protein: 0.1,
+        protein: 0,
         fat: 0,
       ),
       Suggestion(
@@ -1716,7 +1716,7 @@ class SuggestionsData {
         calories: 100, // With 1 tsp sugar & whole milk
         carbs: 12,
         protein: 4,
-        fat: 4.5,
+        fat: 4,
       ),
       Suggestion(
         title: 'Roasted Chana (Plain Salted)',
@@ -1727,7 +1727,7 @@ class SuggestionsData {
         calories: 120, // For 1/4 cup
         carbs: 18,
         protein: 6,
-        fat: 2.5,
+        fat: 2,
       ),
     ]
   };

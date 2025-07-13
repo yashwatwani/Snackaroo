@@ -1,6 +1,6 @@
 # Snackaroo 🥕
 
-Snackaroo is a simple Flutter app that helps users find healthy snack options based on their cravings—like sweet, crunchy, salty, or emotional eating—so they can eat better and avoid overeating.
+Snackaroo is a simple Flutter app that helps users find healthy snack options based on their cravings—like sweet, crunchy, salty, or even if you are not sure —so they can eat better and avoid overeating.
 
 ## 🧠 Why Snackaroo?
 
