@@ -25,6 +25,17 @@ class SuggestionsData {
         protein: 2,
         fat: 3,
       ),
+       Suggestion(
+        title: 'Ragi Ladoo (Jaggery Sweetened)',
+        emoji: '🟤',
+        tip: 'Highly nutritious millet and jaggery balls, rich in calcium and iron.',
+        recipe: '1. In a pan, heat 1/4 cup ghee. Add 1 cup ragi (finger millet) flour and roast on low heat for 10-15 minutes until a nutty aroma arises. Set aside to cool slightly.\n2. In a separate pan, dry roast 1/4 cup chopped almonds and walnuts for 5 minutes. Grind into a coarse powder.\n3. In a bowl, combine the roasted ragi flour, powdered nuts, and 1/2 tsp cardamom powder.\n4. Add 3/4 cup jaggery powder (or to taste) to the mixture and mix well.\n5. Add 2-3 more tablespoons of warm, melted ghee as needed and mix until the mixture can be bound together.\n6. Take small portions and roll them into firm laddoos. Store in an airtight container.',
+        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
+        calories: 130, // Per Ladoo
+        carbs: 16,
+        protein: 3,
+        fat: 6,
+      ),
       Suggestion(
         title: 'Curd with Honey & Fruits (Naturally Sweetened)',
         emoji: '🍯',
@@ -46,6 +57,17 @@ class SuggestionsData {
         carbs: 37,
         protein: 4,
         fat: 9,
+      ),
+      Suggestion(
+        title: 'Steamed Modak (Ukadiche Modak)',
+        emoji: '🥟',
+        tip: 'Healthy, steamed Maharashtrian delight with a sweet coconut-jaggery filling.',
+        recipe: '1. For filling: Heat 1 tsp ghee, add 1 cup fresh grated coconut and 1/2 cup grated jaggery. Cook until mixture thickens. Add 1/4 tsp cardamom powder and 1 tbsp chopped nuts. Cool.\n2. For cover: Boil 1 cup water with a pinch of salt and 1 tsp ghee. Add 1 cup rice flour, mix well, cover and cook for 2-3 mins. Knead into a soft dough while warm.\n3. Take a small portion of dough, flatten it into a cup shape. Place a spoonful of filling inside.\n4. Pleat the edges and bring them together at the top to form a modak shape.\n5. Place modaks on a greased steamer plate. Steam for 10-12 minutes.\n6. Serve hot with a drizzle of ghee.',
+        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
+        calories: 110, // Per modak
+        carbs: 18,
+        protein: 2,
+        fat: 4,
       ),
       Suggestion(
         title: 'Sabudana Kheer (Sweetened with Jaggery/Date Syrup)',
@@ -171,7 +193,7 @@ class SuggestionsData {
       Suggestion(
         title: 'Til Gud Ladoo (Jaggery & Sesame Energy Balls)',
         emoji: '🟤',
-        tip: 'Winter warmth, naturally sweetened with jaggery, rich in iron & calcium.',
+        tip: 'Winter warmth, rich in iron & calcium. A classic Makar Sankranti festival treat.',
         recipe: '1. Dry roast 1 cup white sesame seeds until light golden and aromatic. Cool.\n2. In a pan, add 1 cup grated/powdered jaggery, 1 tbsp ghee, and 1-2 tbsp water (optional, for softer laddoos). Cook on low heat until jaggery melts and syrup is frothy.\n3. Turn off heat. Add roasted sesame seeds, 1/4 tsp cardamom powder. Mix well.\n4. While warm, grease hands and form into small laddoos. Store in airtight container.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 110, // Per Ladoo
@@ -303,7 +325,7 @@ class SuggestionsData {
       Suggestion(
         title: 'Amla Candy (Sweet Indian Gooseberry)',
         emoji: '🌿',
-        tip: 'Tangy-sweet, rich in Vitamin C. Traditional Indian treat.',
+        tip: 'Tangy-sweet treat rich in Vitamin C. Amla is considered a superfruit in Ayurveda.',
         recipe: '1. Take 3-4 pieces of ready-made sweet amla candy.\n2. Enjoy as a mouth freshener or a small sweet treat after meals.\n3. Look for versions made with jaggery or less sugar if possible.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 60, // For approx 20g
@@ -326,7 +348,7 @@ class SuggestionsData {
     'Salty': [
       // --- Enhanced Existing Indian Salty Snacks ---
       Suggestion(
-        title: 'Sprout Salad (Protein Power)',
+        title: 'Sprouts Chaat (Protein Power)',
         emoji: '🌱',
         tip: 'High protein, fiber-rich, refreshing, and quick to assemble.',
         recipe: '1. Take 1 cup mixed boiled or steamed sprouts (moong, moth, chana). Ensure they are tender but still have a bite.\n2. In a bowl, add the sprouts, 1 finely chopped small onion, 1 finely chopped small tomato, and 2 tbsp chopped fresh coriander.\n3. For dressing, mix 1 tbsp lemon juice, 1/4 tsp chaat masala, salt to taste, and a pinch of black pepper or finely chopped green chili (optional).\n4. Pour dressing over the sprout mixture and toss gently to combine well.\n5. Serve immediately or chilled.',
@@ -340,12 +362,23 @@ class SuggestionsData {
         title: 'Upma (Savory Semolina Porridge)',
         emoji: '🥣',
         tip: 'Light, filling, and a classic South Indian breakfast/snack.',
-        recipe: '1. Dry roast 1/2 cup sooji (semolina/rava) in a pan on low heat until lightly aromatic (do not brown). Set aside.\n2. Heat 1 tbsp oil in the same pan. Add 1/2 tsp mustard seeds, 1/2 tsp urad dal (optional), and let them splutter.\n3. Add 1 sprig curry leaves, 1 chopped green chili, and 1/2 inch grated ginger. Sauté for a few seconds.\n4. Add 1 finely chopped small onion and sauté until translucent.\n5. Add 1.5 cups hot water and salt to taste. Bring to a rolling boil.\n6. Reduce flame to low. Gradually add the roasted sooji, stirring continuously to prevent lumps.\n7. Cover and cook on low heat for 5-7 minutes, or until all water is absorbed and sooji is fluffy. \n8. Stir in 1 tsp lemon juice and garnish with chopped coriander. Serve hot.',
+        recipe: '1. Dry roast 1/2 cup sooji (semolina/rava) in a pan on low heat until lightly aromatic (do not brown). Set aside.\n2. Heat 1 tbsp oil in the same pan. Add 1/2 tsp mustard seeds, 1/2 tsp urad dal, and let them splutter.\n3. Add 1 sprig curry leaves, 1 chopped green chili, and 1/2 inch grated ginger. Sauté for a few seconds.\n4. Add 1 finely chopped small onion and sauté until translucent. You can also add 1/4 cup chopped veggies like carrots and peas.\n5. Add 1.5 cups hot water and salt to taste. Bring to a rolling boil.\n6. Reduce flame to low. Gradually add the roasted sooji, stirring continuously to prevent lumps.\n7. Cover and cook on low heat for 5-7 minutes, or until all water is absorbed and sooji is fluffy. \n8. Stir in 1 tsp lemon juice and garnish with chopped coriander. Serve hot.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
-        calories: 120,
-        carbs: 22,
-        protein: 3,
-        fat: 2,
+        calories: 140, // Slightly higher with veggies
+        carbs: 24,
+        protein: 4,
+        fat: 3,
+      ),
+      Suggestion(
+        title: 'Khandvi (Steamed Gram Flour Rolls)',
+        emoji: '🟡',
+        tip: 'Melt-in-your-mouth Gujarati snack. Steamed, not fried, making it light and healthy.',
+        recipe: '1. In a bowl, whisk 1/2 cup besan (gram flour), 1/2 cup sour curd, and 1.5 cups water until no lumps remain. Add 1/4 tsp turmeric, a pinch of asafoetida, and salt.\n2. Pour mixture into a heavy-bottomed pan. Cook on low-medium heat, stirring continuously, until it becomes a very thick paste (10-15 mins).\n3. Working quickly, spread thin layers of the hot paste onto the back of steel plates or a clean countertop.\n4. Let cool for 5-7 minutes. Once set, cut into 2-inch wide strips and carefully roll them up tightly.\n5. For tempering: Heat 1 tbsp oil, add 1/2 tsp mustard seeds, 1 tsp sesame seeds, and 1-2 slit green chilies. Pour over the Khandvi rolls.\n6. Garnish with fresh grated coconut and chopped coriander. Serve.',
+        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
+        calories: 180, // Per serving
+        carbs: 20,
+        protein: 7,
+        fat: 8,
       ),
       Suggestion(
         title: 'Moong Dal Chilla (Savory Lentil Crepes)',
@@ -362,12 +395,12 @@ class SuggestionsData {
         title: 'Poha (Flattened Rice Snack)',
         emoji: '🍚',
         tip: 'Quick breakfast/snack, easily digestible, very popular in India.',
-        recipe: '1. Gently rinse 1 cup thick poha (flattened rice) in a colander until soft. Drain completely and set aside. Do not over-wash.\n2. Heat 1 tbsp oil in a pan. Add 1/2 tsp mustard seeds and let them splutter. Add 1 sprig curry leaves and 1-2 chopped green chilies.\n3. Add 1 finely chopped small onion and sauté until translucent. Optionally add 1/4 cup peanuts and roast until golden.\n4. Add 1/4 tsp turmeric powder and the rinsed poha. Add salt to taste and 1/2 tsp sugar (optional, balances flavor).\n5. Mix gently until poha is well-coated. Cover and cook on low heat for 3-5 minutes, stirring once in between.\n6. Turn off heat. Add 1 tbsp lemon juice and garnish with fresh chopped coriander and grated fresh coconut (optional). Serve hot.',
+        recipe: '1. Gently rinse 1 cup thick poha (flattened rice) in a colander until soft. Drain completely and set aside. Do not over-wash.\n2. Heat 1 tbsp oil in a pan. Add 1/2 tsp mustard seeds and 1/4 cup peanuts. Sauté until peanuts are golden. Add 1 sprig curry leaves and 1-2 chopped green chilies.\n3. Add 1 finely chopped small onion and sauté until translucent.\n4. Add 1/4 tsp turmeric powder, the rinsed poha, salt to taste, and 1/2 tsp sugar (optional, balances flavor).\n5. Mix gently until poha is well-coated. Cover and cook on low heat for 3-5 minutes, stirring once in between.\n6. Turn off heat. Add 1 tbsp lemon juice and garnish with fresh chopped coriander and grated fresh coconut (optional). Serve hot.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
-        calories: 190,
+        calories: 210, // With peanuts
         carbs: 38,
-        protein: 4,
-        fat: 3,
+        protein: 5,
+        fat: 5,
       ),
       Suggestion(
         title: 'Vegetable Sandwich (Quick & Customizable)',
@@ -414,6 +447,17 @@ class SuggestionsData {
         fat: 4,
       ),
       Suggestion(
+        title: 'Ragda Pattice (Baked Version)',
+        emoji: '⚪🥔',
+        tip: 'Popular Mumbai street food made healthy with baked potato patties.',
+        recipe: '1. For Ragda: Soak 1/2 cup dried white peas overnight. Pressure cook with turmeric and salt until soft. Sauté with cumin seeds, ginger, and mild spices.\n2. For Pattice: Boil and mash 3 medium potatoes. Mix with soaked poha, salt, and spices. Shape into patties.\n3. Bake patties at 200°C (400°F) for 20-25 minutes, flipping once, until golden and crisp. Or air-fry.\n4. To serve: Place two baked pattice in a bowl. Pour a generous ladle of hot ragda over them.\n5. Top with tamarind chutney, green chutney, chopped onions, sev, and coriander.',
+        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
+        calories: 280, // per serving
+        carbs: 45,
+        protein: 10,
+        fat: 7,
+      ),
+      Suggestion(
         title: 'Aloo Tikki Chaat (Potato Patty Snack - Healthier)',
         emoji: '🥔🌶️', // Combined emoji
         tip: 'Popular street food, made healthier by shallow frying or baking tikkis.',
@@ -436,7 +480,7 @@ class SuggestionsData {
         fat: 5,
       ),
       Suggestion(
-        title: 'Spiced Tomato Soup (Tamatar Shorba style)',
+        title: 'Tamatar ka Shorba (Spiced Tomato Soup)',
         emoji: '🍅🌶️',
         tip: 'Warm, comforting, lycopene-rich, with an Indian spice twist.',
         recipe: '1. Heat 1 tsp oil or ghee. Add 1/2 tsp cumin seeds, 1 small bay leaf, 1/4 inch ginger (grated), and 1 clove garlic (minced). Sauté for a minute.\n2. Add 1/2 chopped onion and sauté until translucent.\n3. Add 3-4 large chopped ripe tomatoes, 1/4 tsp turmeric powder, salt, and black pepper to taste.\n4. Add 1.5-2 cups vegetable broth or water. Bring to a boil, then simmer covered for 15-20 minutes, or until tomatoes are very soft.\n5. Remove bay leaf. Cool slightly and blend until smooth using an immersion blender or regular blender.\n6. Strain if desired for a smoother soup. Reheat if necessary. Garnish with fresh coriander and a swirl of cream (optional). Serve hot with croutons or soup sticks.',
@@ -607,7 +651,7 @@ class SuggestionsData {
       Suggestion(
         title: 'Masala Buttermilk (Chaas)',
         emoji: '🥛🌿',
-        tip: 'Refreshing, hydrating, and aids digestion. A light, savory drink.',
+        tip: 'A traditional Indian digestive drink, perfect for cooling the body and aiding digestion.',
         recipe: '1. In a blender, combine 1/2 cup plain yogurt (curd), 1 cup cold water, salt to taste (or black salt), and 1/4 tsp roasted cumin powder.\n2. Add a small piece of ginger and a few mint/coriander leaves (optional).\n3. Blend until smooth and frothy. Pour into a glass and serve chilled. Can be made without blending by whisking vigorously.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 45,
@@ -641,7 +685,7 @@ class SuggestionsData {
         fat: 0,
       ),
       Suggestion(
-        title: 'Roasted Chivda (Poha Namkeen)',
+        title: 'Roasted Poha Chivda',
         emoji: '🍘🌶️',
         tip: 'Classic Indian light and crunchy savory mixture made with flattened rice.',
         recipe: '1. Heat 1 tbsp oil in a large pan or kadai. Add 1/2 tsp mustard seeds, 1 sprig curry leaves, and 2-3 slit green chilies. Sauté.\n2. Add 1/4 cup peanuts and 2 tbsp roasted chana dal (split chickpeas). Sauté until peanuts are golden.\n3. Add 2 cups thick poha (flattened rice). Roast on low heat, stirring continuously, until poha becomes very crisp (about 8-10 minutes).\n4. Turn off heat. Add 1/4 tsp turmeric powder, salt to taste, 1 tsp powdered sugar (optional), and a pinch of asafoetida (hing).\n5. Mix everything well. You can also add fried cashews, raisins, or dry coconut slices.\n6. Let cool completely before storing in an airtight container.',
@@ -661,6 +705,17 @@ class SuggestionsData {
         carbs: 10,
         protein: 2,
         fat: 1,
+      ),
+      Suggestion(
+        title: 'Baked Shankarpali (Sweet or Savory)',
+        emoji: '♦️',
+        tip: 'Traditional diamond-shaped crackers, baked for a healthier, crunchy snack.',
+        recipe: '1. For dough: Mix 1 cup whole wheat flour, 2 tbsp sooji (for crispness), and 3 tbsp melted ghee or oil. Rub together.\n2. For Savory (Namak Para): Add 1/2 tsp ajwain (carom seeds), salt, and water to make a stiff dough.\n3. For Sweet (Shakarpali): Add 3-4 tbsp powdered sugar, a pinch of cardamom, and milk to make a stiff dough.\n4. Rest dough for 20 mins. Roll out semi-thick and cut into diamond shapes.\n5. Arrange on a baking sheet. Bake at 180°C (350°F) for 15-20 minutes, flipping once, until golden and crisp.\n6. Let cool completely before storing.',
+        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
+        calories: 140, // For a small serving
+        carbs: 19,
+        protein: 3,
+        fat: 6,
       ),
       Suggestion(
         title: 'Roasted Almonds (Spiced or Plain)',
@@ -867,6 +922,17 @@ class SuggestionsData {
         fat: 5,
       ),
       Suggestion(
+        title: 'Misal (Healthier Low-Oil Version)',
+        emoji: '🍲🌶️',
+        tip: 'Famous spicy Maharashtrian sprout curry. This version uses less oil without compromising on flavor.',
+        recipe: '1. Pressure cook 1 cup soaked moth beans (matki) or mixed sprouts until tender. \n2. For Masala Paste: Dry roast 2 tbsp desiccated coconut, 1 sliced onion, and 4-5 cloves of garlic until golden. Blend with 1-2 tbsp red chili powder (adjust heat) and a little water to a smooth paste.\n3. In a pot, heat 1 tbsp oil, add mustard seeds, cumin seeds, and curry leaves. Add the ground masala paste and cook for 5-7 mins.\n4. Add the cooked sprouts, 3 cups water, salt, and a piece of jaggery. Simmer for 10-15 mins.\n5. To serve: Pour misal into a bowl. Top with chopped onion, coriander, and a generous amount of farsan/sev. Serve with lemon wedges and pav (bread rolls).',
+        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
+        calories: 290, // Excluding pav
+        carbs: 30,
+        protein: 12,
+        fat: 12,
+      ),
+      Suggestion(
         title: 'Mirchi Bajji / Pakora (Spicy Chili Fritters - Baked/Air-Fried)',
         emoji: '🌶️튀',
         tip: 'Popular fiery fritters, made healthier by baking or air-frying.',
@@ -911,7 +977,7 @@ class SuggestionsData {
         fat: 15,
       ),
       Suggestion(
-        title: 'Spicy Boiled Chana (Hot Chickpea Snack)',
+        title: 'Spicy Masala Chana (Hot Chickpea Snack)',
         emoji: '🥣🌶️🔥',
         tip: 'Simple, healthy, protein-rich, and easily spiced up.',
         recipe: '1. Take 1 cup boiled kala chana (black chickpeas) or kabuli chana (white chickpeas).\n2. Heat 1 tsp oil in a pan. Add 1/2 tsp cumin seeds, a pinch of asafoetida, 1-2 slit green chilies, and 1/2 inch grated ginger. Sauté.\n3. Add the boiled chana, 1/2 tsp red chili powder, 1/4 tsp turmeric powder, 1/2 tsp coriander powder, and salt to taste.\n4. Sauté for 3-5 minutes, mixing well.\n5. Squeeze 1 tbsp lemon juice and garnish with fresh coriander. Serve hot.',
@@ -1290,7 +1356,7 @@ class SuggestionsData {
       Suggestion(
         title: 'Masala Chaas (Spiced Buttermilk)',
         emoji: '🥛🌿🌶️',
-        tip: 'Hydrating, cooling, aids digestion, and subtly spiced.',
+        tip: 'Hydrating, cooling, and aids digestion. A traditional Indian drink, perfect after meals or on a hot day.',
         recipe: '1. In a glass, take 1/2 cup plain yogurt/curd. Add 1/2 cup cold water.\n2. Add a pinch of black salt (kala namak), 1/4 tsp roasted cumin powder, and a few finely chopped mint or coriander leaves.\n3. Whisk vigorously with a spoon or a small whisk until smooth and slightly frothy.\n4. Serve immediately. Ready in 2-3 minutes.',
         imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // Placeholder
         calories: 50,
